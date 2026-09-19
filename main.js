@@ -16911,9 +16911,9 @@ window.onload=function()
 };
 const clickPatch = setInterval(() => {
     if (typeof Game !== 'undefined' && Game.ready === 1) {
-        Game.computedMouseCps = 1000000000000000000000000000000000;
+        Game.computedMouseCps = 1000000000000000000000000000000000000000000000000000000000000000000;
         Game.CalculateMouseCps = function() {
-            Game.computedMouseCps = 1000000000000000000000000000000000;
+            Game.computedMouseCps = 1000000000000000000000000000000000000000000000000000000000000000000;
         };
     }
 }, 200);
